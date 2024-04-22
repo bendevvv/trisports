@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Chapter 2 Practice</title>
+        <!-- Google Font Links Go Here! -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Madimi+One&display=swap" rel="stylesheet">
+        <!-- Embedded Styles -->
+        <style>
+            body {
+                background-color: violet;
+                color:steelblue;
+                font-family: "Aldrich", sans-serif
+            }
+            h1 {
+                font-family: "Madimi One", sans-serif;
+                font-size: 2.3em;
+                text-align: center;
+                background-color: azure;
+                padding-top: 35px;
+                padding-right: 10px;
+                padding-bottom: 5px;
+                padding-left: 42px;
+                margin-top: 60px;
+            }
+            h1:hover {
+                background-color:aquamarine;
+                color: azure;
+            }
+            li {
+                color: rgb(119, 77, 154)
+            }
+            li.common {
+                color: rgb(48, 22, 35)
+            }
+            li#special {
+                color:rgb(210, 253, 255)
+            }
+            aside p {
+                text-decoration: underline;
+            }
+            div p {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Chapter 2 Practice Document</h1>
+        <h1>This is the SECOND h1</h1>
+        <p>CSS lets us style HTML elements to change their appearance.</p>
+        <p>Here is another paragraph. This isn't nested anywhere but the body.</p>
+
+        <article>
+            <p>With CCS you are able to change:</p>
+            <ul>
+                <li class="common">Color</li>
+                <li>Layout</li>
+                <li class="common">Typography</li>
+                <li id="special">Animation</li>
+                <li>Effects</li>
+            </ul>
+            <aside>
+                <p>I Want To Be Underlined!!</p>
+            </aside>
+            <div>
+                <aside>
+                    <p>This is an indirect child of the "article" element.</p>
+                </aside>
+            </div>
+        </article>
+    </body>
+</html>
